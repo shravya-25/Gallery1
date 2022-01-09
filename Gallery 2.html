@@ -5,82 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Gallery 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <style>
-       *{
-            box-sizing: border-box;
-        }
-        .container{
-            width: 85%;
-            margin: auto;
-            background-color: pink;
-            padding-top: 25px;
-            padding-bottom: 25px;
-            
-            
-        }
-        .container div{
-                width: 24.5%;
-                display: inline-block;
-                overflow: hidden;
-        }
-        .container div img{
-            width: 100%;
-            transition: transform 1s ease-in-out;
-            padding: 5px;
-            padding-left: 10px;
-        }
-        .container img:hover{
-            transform: scale(1.2);
-        }
-        @media (max-width: 1200px ){
-            .container div{
-                width: 33%;
-                font-size: 20px;}
-              
-        
-        }
-        @media (max-width: 900px){
-            .container div{
-                width: 49%;
-                font-size: 15px;}
-             
-            
-        }
-        @media ( max-width: 600px){
-            .container div{
-                width: 90%;
-                font-size: 10px;}
-        
-      
-              
-            
-        }
-        body{
-            background-image: url(./IMG.jpg);
-            background-attachment: fixed;
-        }
+       img{
+           width: 100%;
+           height: 100%;
+           padding-bottom: 15px;
+       }
+       .container{
+           background-color: hotpink;
+           margin-top: 25px;
+           margin-bottom: 25px;
+       }
+       img:hover{
+           transform: scale(0.8);
+       }
+       div{
+           padding: 10x;
+           overflow: hidden;
+           padding-top: 15px;
+       }
+
    </style>
     
 </head>
 <body>
      <div class="container"> <center><h1>The Gallery</h1></center>
-        <div><img src="./Gallery New/img1.jpg" alt=""></div>  
-        <div><img src="./Gallery New/img2.jpg" alt=""></div>  
-        <div><img src="./Gallery New/img3.jpg" alt=""></div>  
-        <div><img src="./Gallery New/img4.jpg" alt=""></div>  
-        <div><img src="./Gallery New/img5.jpg" alt=""></div> 
-        <div><img src="./Gallery New/img6.jpg" alt=""></div> 
-        <div><img src="./Gallery New/img7.jpg" alt=""></div> 
-        <div><img src="./Gallery New/img8.jpg" alt=""></div>
-        <div><img src="./Gallery New/img9.jpg" alt=""></div>
-        <div><img src="./Gallery New/img10.jpg" alt=""></div>
-        <div><img src="./Gallery New/img11.jpeg" alt=""></div>
-        <div><img src="./Gallery New/img12.jpg" alt=""></div>
+        <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img1.jpg" alt=""></div>  
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img2.jpg" alt=""></div>  
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img3.jpg" alt=""></div>  
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img4.jpg" alt=""></div>  
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img5.jpg" alt=""></div> 
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img6.jpg" alt=""></div> 
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img7.jpg" alt=""></div> 
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img8.jpg" alt=""></div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img9.jpg" alt=""></div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img10.jpg" alt=""></div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img11.jpeg" alt=""></div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12"><img src="./Gallery New/img12.jpg" alt=""></div>
 
+        </div>
+        
+       
+        
     </div>
         
      
      
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
 </body>
 </html>
